@@ -12,10 +12,10 @@ import datasets.transforms as T
 from pycocotools.coco import COCO
 
 # 路径配置
-model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"
-model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"
-annotation_path = "./验证数据集/annotations/instances_filtered.json"
-image_path = "./验证数据集/images/172.57337583818827,173.94525667802563,-18.378586347147394,-17.006705507310105.png"
+model_config_path = "checkpoints/DINOpp_4scale.py"
+model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"
+annotation_path = "./datasets/validation/annotations/instances_filtered.json"
+image_path = "./datasets/validation/images/172.57337583818827,173.94525667802563,-18.378586347147394,-17.006705507310105.png"
 output_path = "改进DINO_172.57337583818827,173.94525667802563,-18.378586347147394,-17.006705507310105.png"
 
 def visualize_detection(image, pred_boxes, true_boxes, output_path=None):

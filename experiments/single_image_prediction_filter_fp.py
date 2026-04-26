@@ -13,8 +13,8 @@ from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 
 # 路径配置
-model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"  # 模型配置文件路径
-model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"  # 模型检查点路径
+model_config_path = "checkpoints/DINOpp_4scale.py"  # 模型配置文件路径
+model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"  # 模型检查点路径
 annotation_path = "./数据集筛选结果/nac数据集/high/annotations/instances_filtered.json"  # COCO注释文件路径
 image_path = "./数据集筛选结果/nac数据集/high/images/A14-3821.png"  # 自定义测试图像路径
 

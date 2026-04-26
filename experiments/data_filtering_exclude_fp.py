@@ -15,15 +15,15 @@ from tqdm import tqdm
 import util.box_ops as box_ops
 
 # 路径配置
-model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"
-model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"
+model_config_path = "checkpoints/DINOpp_4scale.py"
+model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"
 annotation_paths = [
-    "./迁移数据集/annotations/train1.json",
-    "./迁移数据集/annotations/val1.json",
+    "./datasets/transfer/annotations/train1.json",
+    "./datasets/transfer/annotations/val1.json",
 ]
 image_dirs = [
-    "./迁移数据集/images/",
-    "./迁移数据集/images/"
+    "./datasets/transfer/images/",
+    "./datasets/transfer/images/"
 ]
 output_dir_high = "./数据集筛选结果/danet数据集/high/"
 output_dir_low = "./数据集筛选结果/danet数据集/low/"

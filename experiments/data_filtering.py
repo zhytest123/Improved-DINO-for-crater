@@ -14,13 +14,13 @@ from tqdm import tqdm
 
 
 # 路径配置
-model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"
-model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"
+model_config_path = "checkpoints/DINOpp_4scale.py"
+model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"
 annotation_paths = [
-    "./lronac数据集/annotations/instances_filtered.json",
+    "./datasets/lronac/annotations/instances_filtered.json",
 ]
 image_dirs = [
-    "./lronac数据集/images/",
+    "./datasets/lronac/images/",
 ]
 output_dir_high = "./数据集筛选结果/nac数据集/high_ap/"
 output_dir_low = "./数据集筛选结果/nac数据集/low_ap/"

@@ -92,10 +92,10 @@ class SimpleVisualizer:
 
 def main():
     # 路径配置
-    model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"
-    model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"
-    annotation_path = "./验证数据集/annotations/instances_filtered.json"
-    image_path = "./验证数据集/images/-63.39012861382869,-62.01824777399138,-19.75046718698471,-18.378586347147394.png"
+    model_config_path = "checkpoints/DINOpp_4scale.py"
+    model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"
+    annotation_path = "./datasets/validation/annotations/instances_filtered.json"
+    image_path = "./datasets/validation/images/-63.39012861382869,-62.01824777399138,-19.75046718698471,-18.378586347147394.png"
 
     # 结果保存路径
     output_dir = "./detection_results"

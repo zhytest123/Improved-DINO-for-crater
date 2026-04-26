@@ -13,10 +13,10 @@ from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 
 # 路径配置
-model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"  # 模型配置文件路径
-model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"  # 模型检查点路径
+model_config_path = "checkpoints/DINOpp_4scale.py"  # 模型配置文件路径
+model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"  # 模型检查点路径
 annotation_path = "./数据集筛选结果/nac数据集/high/annotations/instances_filtered.json"  # COCO注释文件路径
-# image_path = "./lronac数据集/val2017/-11.258656700010981,-9.88677586017368,-37.58491810486972,-36.213037265032405.png"  # 测试图像路径
+# image_path = "./datasets/lronac/val2017/-11.258656700010981,-9.88677586017368,-37.58491810486972,-36.213037265032405.png"  # 测试图像路径
 # 对比：-162.16554908211486,-160.7936682422776,-0.5441354292623967,0.8277454105749196
 # 对比：165.71397163900173,167.0858524788391,-12.89106298779817,-11.519182147960857
 # 消融：172.57337583818827,173.94525667802563,-18.378586347147394,-17.006705507310105

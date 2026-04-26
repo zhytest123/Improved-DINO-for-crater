@@ -12,8 +12,8 @@ from pycocotools.cocoeval import COCOeval
 from tqdm import tqdm
 
 # 路径配置
-model_config_path = "ckpts/dinopp4/DINOpp_4scale.py"
-model_checkpoint_path = "ckpts/dinopp4/checkpoint_best_regular.pth"
+model_config_path = "checkpoints/DINOpp_4scale.py"
+model_checkpoint_path = "checkpoints/checkpoint_best_regular.pth"
 annotation_path = "./数据集筛选结果/danet数据集/high/annotations/instances_filtered.json"
 image_dir = "./数据集筛选结果/danet数据集/high/images"
 
