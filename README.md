@@ -1,7 +1,5 @@
 # Improved DINO for Crater Detection | 改进的DINO陨石坑检测模型
 
-<img src="figs/dinosaur.png" width="30">
-
 ## Overview | 项目概述
 
 ![Improved DINO Overview](figs/improved_dino_overview.png)
