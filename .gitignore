@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Datasets
+datasets/coco/
+datasets/*/images/
+datasets/*/annotations/
+*.jpg
+*.png
+*.jpeg
+对比实验测试图/
+数据集筛选结果/
+迁移数据集/
+验证数据集/
+
+# Checkpoints
+ckpts/
+ckpts_backup/
+logs/
+outputs/
+exps/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+wandb/
+tensorboard/
