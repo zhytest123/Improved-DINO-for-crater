@@ -1,9 +1,35 @@
 # DINO <img src="figs/dinosaur.png" width="30">
+
+## Improved DINO Overview
+
+![Improved DINO Overview](figs/improved_dino_overview.png)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=dino-detr-with-improved-denoising-anchor-1)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=dino-detr-with-improved-denoising-anchor-1)
 
 This is the official implementation of the paper "[DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)". 
 (DINO pronounced `daɪnoʊ' as in dinosaur)
+
+## Challenges in Small Object Detection
+
+![Detection Challenges](figs/challenges.png)
+
+## Improved Architecture
+
+### Overall Architecture
+![Improved DINO Architecture](figs/improved_dino_architecture.png)
+
+### HSFPN Module
+![HSFPN Architecture](figs/hsfpn_architecture.png)
+
+### Multi-scale Proposal Generation
+![Multi-scale Proposal](figs/multiscale_proposal.png)
+
+## Experimental Results
+
+![Comparison Results](figs/comparison_results.png)
+
+## Original Paper Information
 
 Authors: [Hao Zhang](https://haozhang534.github.io/)\*, [Feng Li](https://fengli-ust.github.io/)\*, [Shilong Liu](https://www.lsl.zone/)\*, [Lei Zhang](https://www.leizhang.org/), [Hang Su](https://www.suhangss.me/), [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml), [Lionel M. Ni](https://www.cse.ust.hk/~ni/), [Heung-Yeung Shum](https://scholar.google.com.hk/citations?user=9akH-n8AAAAJ&hl=en)
 
