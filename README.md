@@ -154,21 +154,6 @@ Improved-DINO-for-crater/
 └── README.md            # This file | 本文件
 ```
 
-## Citation | 引用
-
-If you find this work useful, please consider citing:
-
-如果您觉得这项工作有用，请考虑引用：
-
-```bibtex
-@article{zhang2022dino,
-  title={DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection},
-  author={Zhang, Hao and Li, Feng and Liu, Shilong and Zhang, Lei and Su, Hang and Zhu, Jun and Ni, Lionel M and Shum, Heung-Yeung},
-  journal={arXiv preprint arXiv:2203.03605},
-  year={2022}
-}
-```
-
 ## Acknowledgments | 致谢
 
 This project is based on the original [DINO](https://github.com/IDEACVR/DINO) implementation. We thank the authors for their excellent work.
