@@ -20,6 +20,7 @@ datasets/*/images/
 datasets/*/annotations/
 *.jpg
 *.png
+!figs/*.png
 *.jpeg
 对比实验测试图/
 数据集筛选结果/
